@@ -3,7 +3,8 @@ let products = {
         {
             id: 1,
             name: 'Product 1',
-            description: 'Product1 description'
+            description: 'Product1 description',
+            price: 19.00
         }
     ]
 }
