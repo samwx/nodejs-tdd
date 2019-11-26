@@ -1,3 +1,13 @@
+let products = {
+    items: [
+        {
+            id: 1,
+            name: 'Product 1',
+            description: 'Product1 description'
+        }
+    ]
+}
+
 module.exports = {
     get(_, res) {
         res.json({ title: 'Products page' });
